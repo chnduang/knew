@@ -1,10 +1,10 @@
 {
-  "name": "knew",
+  "name": "knew-ui",
   "version": "0.0.1-beta.1",
   "description": "An enterprise-class UI design language and React components implementation",
-  "title": "knew",
+  "title": "knew-ui",
   "keywords": [
-    "knew",
+    "knew-ui",
     "component",
     "components",
     "design",
