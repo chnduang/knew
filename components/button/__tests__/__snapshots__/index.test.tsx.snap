@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Button renders correctly 1`] = `
+<button
+  class="ant-btn ant-btn-primary"
+  type="button"
+>
+  <span>
+    按钮Follow
+  </span>
+</button>
+`;
