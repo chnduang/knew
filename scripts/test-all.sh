@@ -10,7 +10,7 @@ echo "[TEST ALL] lint"
 npm run lint
 
 if [ "$1" != "--skip-build" ]; then
-  echo "[TEST ALL] dist"
+  echo "[TEST ALL] dist $1"
   npm run dist
 
   echo "[TEST ALL] compile"
