@@ -235,7 +235,7 @@ class Demo extends React.Component {
         'react-router@3.x/umd/ReactRouter.min.js',
       ]
         // eslint-disable-next-line no-unused-vars
-        .map(url => `https://unpkg.com/antd@${antBaseVersion}`)
+        .map(url => `https://unpkg.com/${url}`)
         .join(';'),
       js_pre_processor: 'typescript',
     };

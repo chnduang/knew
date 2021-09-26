@@ -14,8 +14,9 @@ function exitProcess(code = 1) {
   process.exit(code);
 }
 
+// 检查版本
 async function checkVersion() {
-  const { versions } = await fetch('http://registry.npmjs.org/knew').then(res => res.json());
+  const { versions } = await fetch('http://registry.npmjs.org/knew-ui').then(res => res.json());
   if (version in versions) {
     console.log(chalk.yellow('😈 Current version already exists. Forget update package.json?'));
     console.log(chalk.cyan(' => Current:'), version);
