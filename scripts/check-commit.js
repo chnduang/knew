@@ -48,7 +48,7 @@ async function checkRemote() {
     console.log(
       chalk.yellow('😓 Your remote origin is not ant-design/ant-design, did you fork it?'),
     );
-    exitProcess();
+    // exitProcess();
   }
 }
 
