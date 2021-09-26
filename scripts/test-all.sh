@@ -16,11 +16,11 @@ if [ "$1" != "--skip-build" ]; then
   echo "[TEST ALL] compile"
   npm run compile
 else
-  echo "Skip build..."	
+  echo "Skip build..."
 fi
 
-echo "[TEST ALL] dekko dist"
-node ./tests/dekko/dist.test.js
+# echo "[TEST ALL] dekko dist"
+# node ./tests/dekko/dist.test.js
 
 echo "[TEST ALL] dist test"
 LIB_DIR=dist npm test
