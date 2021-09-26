@@ -234,7 +234,8 @@ class Demo extends React.Component {
         'react-router-dom/umd/react-router-dom.min.js',
         'react-router@3.x/umd/ReactRouter.min.js',
       ]
-        .map(url => `https://unpkg.com/${url}`)
+        // eslint-disable-next-line no-unused-vars
+        .map(url => `https://unpkg.com/antd@${antBaseVersion}`)
         .join(';'),
       js_pre_processor: 'typescript',
     };
