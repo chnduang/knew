@@ -80,7 +80,7 @@
     "test": "jest --config .jest.js --cache=false --passWithNoTests",
     "test:update": "jest --config .jest.js --cache=false -u",
     "test-all": "sh -e ./scripts/test-all.sh",
-    "test-node": "jest --config .jest.node.js --cache=false",
+    "test-node": "jest --config .jest.node.js --cache=false --passWithNoTests",
     "tsc": "tsc --noEmit",
     "site:test": "jest --config .jest.site.js --cache=false --force-exit",
     "test-image": "npm run dist && docker-compose run tests",
